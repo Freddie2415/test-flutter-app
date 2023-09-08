@@ -11,7 +11,6 @@ import 'package:google_fonts/google_fonts.dart';
 
 import '../../widgets/input.dart';
 import '../../widgets/text_divider.dart';
-import 'success_page.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});

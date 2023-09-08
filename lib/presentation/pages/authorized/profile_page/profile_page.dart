@@ -2,6 +2,7 @@ import 'package:app/domain/entities/user.dart';
 import 'package:app/presentation/blocs/auth/auth_bloc.dart';
 import 'package:app/presentation/pages/authorized/my_ads_page/my_ads_page.dart';
 import 'package:app/presentation/theme.dart';
+import 'package:app/presentation/widgets/bottom_nav_bar.dart';
 import 'package:app/presentation/widgets/bottom_sheet_select.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -199,6 +200,10 @@ class ProfilePage extends StatelessWidget {
             ),
           ],
         ),
+      ),
+      bottomNavigationBar: BottomNavBar(
+        currentIndex: 3,
+        onTap: (value) {},
       ),
     );
   }
